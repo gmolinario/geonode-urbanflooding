@@ -81,6 +81,11 @@
       <input class="btn btn-default" type="button" value="{% trans "Choose Files" %}" onclick="document.getElementById('file-input').click();">
     </form>
 
+    <section style="font-style: italic;">
+      <p><strong>WARNING: </strong>Before uploading a GeoTIFF, be sure it has been optimized for the best performances.<br>
+      Further details can be found <a href="https://geoserver.geo-solutions.it/edu/en/raster_data/processing.html" target="_blank">here</a></p>
+    </section>
+
     <section class="widget">
       <ul id="global-errors"></ul>
       <h4>{% trans "Files to be uploaded" %}</h4>
@@ -107,6 +112,7 @@
       <a href="{% url "layer_upload" %}" id="clear-button" class="btn btn-default">{% trans "Clear" %}</a>
       <a href="#" id="upload-button" class="btn btn-danger">{% trans "Upload files" %}</a>
     </section>
+
   </div>
 
   {% if GEONODE_SECURITY_ENABLED %}
