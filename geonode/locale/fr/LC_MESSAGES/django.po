@@ -185,11 +185,11 @@ msgid "Category is required."
 msgstr "Une catégorie est requise."
 
 #: geonode/base/forms.py:288
-msgid "Keywords from Thesauri"
+msgid "Keywords from Thesaurus"
 msgstr "Mots-clés du Thésaurus"
 
 #: geonode/base/forms.py:290
-msgid "List of keywords from Thesauri"
+msgid "List of keywords from Thesaurus"
 msgstr "Liste des mots-clés du Thésaurus"
 
 #: geonode/base/forms.py:321 geonode/base/models.py:537
@@ -6692,8 +6692,8 @@ msgid "home"
 msgstr "Si vous avez des questions concernant le logiciel ou des services s'y rapportant, joignez-nous sur notre <a href=\"http://lists.osgeo.org/cgi-bin/mailman/listinfo/geonode-users\">mailing list</a>"
 
 #: geonode/templates/index.html:23
-msgid "http://docs.geonode.org/en/2.10.x/usage/index.html"
-msgstr "http://docs.geonode.org/en/2.10.x/usage/index.html"
+msgid "http://docs.geonode.org/en/2.10.1/usage/index.html"
+msgstr "http://docs.geonode.org/en/2.10.1/usage/index.html"
 
 #: geonode/templates/index.html:23
 msgid "Get Started &raquo;"
